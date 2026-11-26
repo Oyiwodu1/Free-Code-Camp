@@ -1,0 +1,14 @@
+languages = ['Spanish', 'English', 'Russian', 'Chinese']
+
+index = 0
+
+for language in languages:
+    print(f'Index {index} and language {language}')
+    index += 1
+
+even_numbers = [num for num in range(21) if num % 2 == 0]
+print(even_numbers)
+numbers = [1, 2, 3, 4, 5]
+result = [(num, 'Even') if num % 2 == 0 else (num, 'Odd') for num in numbers]
+print(result)
+
